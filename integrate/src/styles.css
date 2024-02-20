@@ -1,0 +1,44 @@
+.fileInput{
+    border: 4px solid #b97878;
+    padding: 30px;
+    border-radius: 8px;
+    background-color: #adcac8;
+    color: #8e5c5c;
+    font-size: 20px;
+    font-family:'Times New Roman', Times, serif;
+    justify-content: center;
+    margin-left: 700px;
+}
+
+.fileInput:hover{
+    background-color: #7d91a5;
+}
+
+.selectStyle{
+    padding: 8px;
+    font-size: 14px;
+    font-weight: 100;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    border: 3px solid #c27a7a;
+    border-radius: 4px solid #884e4e;
+    background-color: #c5a8a8;
+    color: #333;
+    justify-content: center;
+    margin-left: 200px;
+}
+
+.buttonStyle{
+    background-color: #b19fb1;
+    color: rgb(22, 21, 21);
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor:pointer;
+    margin-top: 8px;
+    margin-left: 800px;
+}
+
+.buttonStyle:hover{
+    background-color: #7d91a5;
+}
