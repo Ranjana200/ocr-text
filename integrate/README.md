@@ -68,3 +68,44 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+### Text-to-Speech Converter in React(Intro)
+This project is a text-to-speech converter implemented in React. It allows users to upload an image containing text, extract the text using Tesseract.js, and convert it to speech using the Speech Synthesis API. Users can also play and pause the speech, with the currently spoken word highlighted in real-time.
+
+### clone the repository
+git@gitlab.neubitat.com:experiments/1texttoospeech.git
+
+### Install dependencies:
+### `npm install tesseract.js`
+
+### Usage
+Upload an image containing text using the file input.
+Select the language of the text (English, Telugu, Hindi, Kannada).
+Click the "Submit" button to extract the text and convert it to speech.
+Use the "Play" and "Pause" buttons to control the speech playback.
+The currently spoken word will be highlighted in the result section.
+
+### Features
+Extract text from images using Tesseract.js.
+Convert text to speech using the Speech Synthesis API.
+Highlight the currently spoken word in real-time.
+
+### active word
+.highlight {
+  background-color: yellow;
+  color: black;
+  font-weight: bold;
+}
+ This class is used to change the styling (such as color, background color, font weight, etc.) of the word to make it stand out while it is being read aloud.
+
+### The line of code of discussion are:
+https://gitlab.neubitat.com/experiments/1texttoospeech/master/app.js#L96-L101
+
+
+
+
+
+
+
+

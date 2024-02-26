@@ -3,15 +3,16 @@
     padding: 30px;
     border-radius: 8px;
     background-color: #adcac8;
-    color: #8e5c5c;
-    font-size: 20px;
+    color: #855656;
+    font-size: 25px;
     font-family:'Times New Roman', Times, serif;
     justify-content: center;
-    margin-left: 700px;
+    margin-left: 570px;
+    margin-top: 125px;
 }
 
 .fileInput:hover{
-    background-color: #7d91a5;
+    background-color: #a1acb7;
 }
 
 .selectStyle{
@@ -19,26 +20,34 @@
     font-size: 14px;
     font-weight: 100;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-    border: 3px solid #c27a7a;
-    border-radius: 4px solid #884e4e;
+    border: 3px solid #cbb1b1;
+    border-radius: 6px solid #945858cf;
     background-color: #c5a8a8;
     color: #333;
-    justify-content: center;
-    margin-left: 200px;
+    margin-left: 100px;
+    margin-top: 20px;
 }
 
 .buttonStyle{
     background-color: #b19fb1;
     color: rgb(22, 21, 21);
-    border: none;
+    border: 2px solid black;
     border-radius: 10px;
     padding: 10px 20px;
     font-size: 16px;
     cursor:pointer;
     margin-top: 8px;
-    margin-left: 800px;
+    margin-left: 757px;
 }
 
 .buttonStyle:hover{
     background-color: #7d91a5;
 }
+
+.highlight {
+    background-color: rgb(232, 232, 151);
+    color: black;
+    font-weight: bold;
+  }
+  
+  
